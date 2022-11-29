@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.quote{
+    text-align:center;
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Impact;
+}
+p,#quoteDisplay,#quoteAuthor{
+    font-size: 35px;
+}
+#quoteDisplay,#quoteAuthor{
+    margin-bottom: 2rem;
+
+}
+button{
+    width: 250px;
+    height: 80px;
+    background: linear-gradient(to bottom, #136681 0%, #8f1954 100%);
+    color: white;
+    border: 2px solid #000;
+    margin-bottom: 2rem;
+}
+button:hover{
+    background-color: green;
+}
